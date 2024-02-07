@@ -1,0 +1,87 @@
+.navigation-bar{
+    
+}
+
+.social-component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.locations-items{
+    display: flex;
+    align-items: center;
+}
+
+.location-icon-div{
+    width: 20px;
+    height: 20px;
+    /* background-color: grey; */
+    margin: 5px;
+    /* border-radius: 10px; */
+}
+
+.social-handles{
+    display: flex;
+    align-items: center;
+}
+
+.social-icons{
+    width: 20px;
+    /* height: 25px; */
+    /* background-color: grey; */
+    margin: 5px 13px;
+    /* border-radius: 10px; */
+}
+
+.nav-bar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(54, 58, 65);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list-navigator-items{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.list-navigator-items li{
+    margin: 0 10px;    
+}
+
+.list-navigator-items li:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: beige;
+}
+
+.nav-donate-btn{
+    background-color: rgb(109, 109, 109);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.isActiv-tab-true{
+    color: orange;
+}
+
+
+
+@media screen and (max-width:431px) {
+    .social-handles{
+        display: none;
+    }
+
+    .navigators-div{
+        display: none;
+    }
+
+}

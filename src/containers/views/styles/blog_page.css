@@ -1,0 +1,11 @@
+.blog-page{
+
+}
+
+.blog_top_div{
+    padding: 10px 100px;
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.7)),url("../../../assets/images/church_people.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

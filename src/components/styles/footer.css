@@ -1,0 +1,62 @@
+.footer-div{
+    padding: 40px 10%;
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.7)) ,url("../../assets/images/be_lifted.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-items{
+    width: 20%;
+}
+
+.footer-title-div{
+    display: flex;
+    align-items: center;
+}
+
+.footer-title-div .divider-long{
+    margin-right: 5px;
+}
+
+.unit-quick-link{
+    display: flex;
+    align-items: center;
+}
+
+.footer-unit-news{
+    display: flex;
+    align-items: center;
+}
+
+.footer-news-image{
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.footer-news-details h4{
+    max-lines: 2;
+}
+
+.button-1{
+    background-color:grey;
+    color: white;
+    border:none;
+    font-weight: bold;
+}
+
+.newsletter-signup-input-div input:focus{
+    outline: none;
+}
+
+.newsletter-signup-input-div{
+    display: flex;
+}
+
+.newsletter-signup-input-div input{
+    /* width: 120px; */
+}

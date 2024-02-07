@@ -1,0 +1,27 @@
+.sermon-detail-container{
+    margin: 0px 100px 100px 100px;   
+}
+
+.the-sermon-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-sermon{
+    width: 65%;
+}
+
+.ads-in-sermon{
+    width: 30%;
+    height: 500px;
+    background-image: url("../../assets/images/lady_reading_bible.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sermon-container-view-all{
+    margin-top: 20px;
+    outline-style: none;
+    font-size: 20px;
+    text-align: center;
+}

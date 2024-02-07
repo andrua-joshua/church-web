@@ -1,0 +1,120 @@
+.events{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px;
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.6)) ,url("../../assets/images/be_lifted.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.events h4{
+    margin-bottom: 0px;
+    color: grey;
+}
+
+.events h2{
+    margin-top: 2px;
+}
+
+.events .divider-lines .divider-short{
+    background-color: rgb(179, 179, 179);
+}
+
+.events .divider-lines .divider-long{
+    background-color: rgb(179, 179, 179);
+}
+
+.events-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-cont{
+    margin-top: -50px;
+    margin-left: 20px;
+    /* width: 60px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+    /* background-color: green; */
+    background-color: rgba(54, 58, 65, .4);   
+    
+}
+
+.location-icon{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: rgb(54, 58, 65);   
+}
+
+.event-date{
+    /* color: rgb(54, 58, 65); */
+    margin: 0px;
+    color: white;
+}
+
+.event-time{
+    background-color: rgb(54, 58, 65);
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin:10px 0px 0px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:0px 3px;
+}
+
+.unit-event{
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+}
+
+.unit-event-img{
+    width: 100%;
+    height: 160px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.event-title{
+    color: black;
+}
+
+.padded-info{
+    margin-top: 5px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.event-details-link{
+    text-underline-offset: 4px;
+    color: rgb(54, 58, 65);
+}
+
+
+@media screen and (max-width:431px) {
+    .events-div{
+        flex-direction: column;
+    }
+
+    .events{
+        padding: 30px 10px;
+    }
+
+    .unit-event{
+        width: 90%;
+    }
+
+    .unit-event-img{
+        height: fit-content;
+    }
+}

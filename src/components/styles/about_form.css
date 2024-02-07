@@ -1,0 +1,77 @@
+.about-form{
+    /* width: 100%; */
+    background-color: rgb(238, 238, 238);
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-form-div{
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.about-info-div{
+    width: 230px;
+}
+
+.unit-about-info{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+    margin: 10px 0px;
+}
+
+.info-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(54, 58, 65,.4);
+    margin-right: 10px;
+}
+
+.the-info-label{
+    margin: 0px;
+}
+
+.the-info-value{
+    margin: 1px;
+    font-size: 13px;
+    color:grey;
+}
+
+.inputs-row-div{
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-form-div p{
+    color: grey;
+}
+
+.row-input{
+    width: 45%;
+    padding: 10px;
+    border: 1px solid grey;
+    color: grey;
+}
+
+.the-message{
+    width: 100%;
+    height: 150px;
+}
+
+.send-btn{
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+}
+

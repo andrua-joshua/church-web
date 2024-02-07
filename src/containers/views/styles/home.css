@@ -1,0 +1,14 @@
+.home-top{
+    padding: 10px 100px;
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.7)),url("../../../assets/images/church_people.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (max-width:431px) {
+    .home-top{
+        padding: 5px;
+    }   
+}

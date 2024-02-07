@@ -1,0 +1,60 @@
+.blog-posts{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-posts h4{
+    margin: 0px;
+    color: grey;
+}
+
+.blog-posts h2{
+    margin-top: 0px;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unit-post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 10px;
+}
+
+.post-date-div{
+    width: fit-content;
+    background-color: rgb(54, 58, 65);
+    color: white;
+    margin: 0px;
+}
+
+.post-title{
+    margin: 0px;
+}
+
+.post-date{
+    padding: 2px 4px;
+}
+
+.post-description{
+    max-lines: 2;
+    margin: 0px;
+}
+
+.the-post-info{
+    width: 60%;
+}
+
+.post-img{
+    width: 50%;
+    /* height: 200px; */
+    background-color: black;
+    margin-right: 10px;
+}

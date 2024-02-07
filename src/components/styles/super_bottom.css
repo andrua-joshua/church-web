@@ -1,0 +1,11 @@
+.super-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
